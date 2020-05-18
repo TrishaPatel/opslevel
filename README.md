@@ -18,7 +18,7 @@ Validations: Unquie and Compulsory task validation applied.
 Wrote one test cases to make sure task added sucessfully.
 
 
-### `npm build`
+### `npm run-script build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.

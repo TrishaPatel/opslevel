@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
   },
   container:{
     width:'400px',
-    display:'inline-block',
+    // direction:'flex',
+    // display:'inline-block',
   }
 }));
 export default function ToDoList() {
@@ -63,8 +64,7 @@ export default function ToDoList() {
   }
 
   return (
-    <div>
-    <Grid container className={classes.container}>
+    <Grid container className={classes.container} justify="center">
     <form  onSubmit={handleSubmit}>
       <Grid item xs={12} className={classes.item}>
         <TextField error={error? true: false} helperText={error? error: ''}
@@ -103,6 +103,5 @@ export default function ToDoList() {
       </TableContainer>
       </Grid>
     </Grid>
-    </div>
   );
 }

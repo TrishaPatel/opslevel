@@ -46,10 +46,8 @@ function App() {
            </header>
           </Grid>
         </Grid>
-        <Grid container>
-          <Grid item xs={12}>
+        <Grid container justify="center">
             <ToDoList/>
-          </Grid>
         </Grid>
     </div>
   );
